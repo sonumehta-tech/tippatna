@@ -1,0 +1,110 @@
+
+       .animate-on-scroll {
+           opacity: 0;
+           transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+       }
+
+       .animate-on-scroll.is-visible {
+           opacity: 1;
+           transform: translateY(0) !important;
+           /* Ensure transform is reset */
+       }
+
+       .animate-fadeInUp {
+           transform: translateY(30px);
+       }
+
+
+       /* Custom scrollbar for a more modern feel - optional */
+       ::-webkit-scrollbar {
+           width: 4px;
+       }
+
+       ::-webkit-scrollbar-track {
+           background: #f1f5f9;
+           /* slate-100 */
+       }
+
+       ::-webkit-scrollbar-thumb {
+           background: #860b0b;
+           /* blue-400 */
+           border-radius: 4px;
+       }
+
+       ::-webkit-scrollbar-thumb:hover {
+           background: #690505;
+           ;
+           /* blue-500 */
+       }
+
+       html {
+           scroll-behavior: smooth;
+       }
+
+
+       .animate-pulse-whatsapp {
+           animation: pulse 2.5s infinite ease-out;
+       }
+
+       .animate-pulse2-scrollTopBtn {
+           animation: pulse2 2.5s infinite ease-out;
+       }
+
+
+       @keyframes pulse {
+
+           0%,
+           100% {
+               transform: scale(1);
+               box-shadow: 0 0 0 0 #56e856;
+           }
+
+           /* lime-600 with opacity */
+           50% {
+               transform: scale(1.05);
+               box-shadow: 0 0 0 10px rgba(132, 204, 22, 0);
+           }
+       }
+
+       @keyframes pulseShadow {
+
+           0%,
+           100% {
+               box-shadow: #56e856;
+           }
+
+           /* cyan-300 with alpha */
+           50% {
+               box-shadow: 0 0 0 10px rgba(0, 188, 212, 0);
+           }
+       }
+
+       @keyframes pulse2 {
+
+           0%,
+           100% {
+               transform: scale(1);
+               box-shadow: 0 0 0 0 rgb(158, 17, 17);
+           }
+
+           /* lime-600 with opacity */
+           50% {
+               transform: scale(1.05);
+               box-shadow: 0 0 0 10px rgba(132, 204, 22, 0);
+           }
+       }
+
+       @keyframes pulse2Shadow {
+
+           0%,
+           100% {
+               box-shadow:rgb(111, 8, 8);
+           }
+
+           /* cyan-300 with alpha */
+           50% {
+               box-shadow: 0 0 0 10px rgba(0, 188, 212, 0);
+           }
+       }
+
+       
