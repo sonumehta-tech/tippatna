@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Header/>
-        <div className="md:mt-30 mt-50">
+        <div className="md:mt-30 mt-35">
           {children}
         </div>
         <Footer/>

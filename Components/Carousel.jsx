@@ -44,6 +44,7 @@ const MyCarousel = () => {
             alt="Slide 3"
             fill
             className="object-cover rounded-md"
+            unoptimized
           />
         </div>
       </Carousel>
