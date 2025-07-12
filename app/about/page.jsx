@@ -9,7 +9,7 @@ const page = () => {
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center px-6 mt-5">
           {/* Text Content */}
           <div>
-            <h2 className="text-3xl font-bold mb-4 text-orange-700">About Technical Institute Patna</h2>
+            <h2 className="text-3xl font-bold mb-4 text-gray-800">About Technical Institute Patna</h2>
             <p className="text-lg leading-relaxed mb-4">
               Technical Institute Patna is one of the most trusted and leading training centers for practical
               repair and service education. We provide 100% hands-on learning experiences in AC repairing, washing machine servicing, RO systems, geysers, refrigerators, motor winding, and house wiring.
@@ -42,7 +42,7 @@ const page = () => {
       
         {/* My Certification Section */}
         <div className="mt-20 text-center">
-          <h2 className="text-3xl font-bold text-orange-700 mb-10">My Certifications</h2>
+          <h2 className="text-3xl font-bold text-gray-800 mb-10">My Certifications</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
             {[
               { src: "/images/certificate.png", title: "AC Repair Certificate" },

@@ -93,7 +93,7 @@ const Form = () => {
 
           <button
             type="submit"
-            className="bg-orange-700 hover:bg-orange-800 text-white px-4 py-2 rounded w-full"
+            className="bg-gray-800 hover:bg-gray-800 text-white px-4 py-2 rounded w-full"
           >
             Submit on WhatsApp
           </button>

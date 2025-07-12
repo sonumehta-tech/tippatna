@@ -40,13 +40,7 @@ const Page = () => {
              <Form/>
           </div>
           <div className="w-full p-4">
-            <iframe
-              className="h-90 md:h-[80vh] w-full rounded-xl shadow-md"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15553.184793674764!2d77.73698617523385!3d12.952888759631673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae0d8e9801ea41%3A0x4854e49b71814061!2sMidtown%20Opulent!5e0!3m2!1sen!2sin!4v1750069840440!5m2!1sen!2sin"
-              allowFullScreen=""
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d774579.3088111837!2d84.39313974001873!3d25.614553951577154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed5622075fc237%3A0x2b6d6978bc6bffc6!2sDRM%20Office!5e0!3m2!1sen!2sin!4v1752337265506!5m2!1sen!2sin" width="600" height="450" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>

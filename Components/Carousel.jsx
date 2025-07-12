@@ -20,7 +20,7 @@ const MyCarousel = () => {
         {/* Slide 1 */}
         <div className="relative md:h-[80vh] h-[40vh]">
           <Image
-            src="/images/carousel4.png"
+            src="/images/carosel1.jpg"
             alt="Slide 1"
             fill
             className="object-cover rounded-md"
@@ -30,7 +30,7 @@ const MyCarousel = () => {
         {/* Slide 2 */}
         <div className="relative md:h-[80vh] h-[40vh]">
           <Image
-            src="/images/carousel5.png"
+            src="/images/carosel3.jpg"
             alt="Slide 2"
             fill
             className="object-cover rounded-md"
@@ -40,7 +40,7 @@ const MyCarousel = () => {
         {/* Slide 3 */}
         <div className="relative md:h-[80vh] h-[40vh]">
           <Image
-            src="/images/carousel6.png"
+            src="/images/caurosel3.jpg"
             alt="Slide 3"
             fill
             className="object-cover rounded-md"

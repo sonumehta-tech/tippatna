@@ -92,14 +92,14 @@ const Services = () => {
       <h2 className="text-3xl font-bold mb-10">Our Courses</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {services.map((s, i) => (
-          <div key={i} className="bg-white rounded-xl shadow hover:shadow-lg">
+          <div key={i} className="bg-white rounded-xl shadow hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2">
             <Image src={s.src} width={400} height={200} className="rounded-t-xl" alt="service" />
             <h3 className="text-xl font-semibold mt-4 px-3">{s.title}</h3>
             <p className="text-gray-600 m-2 px-3">{s.desc}</p>
             <button
               type="button"
               onClick={() => openModal(s.title)}
-              className="bg-orange-800 text-center  ms-20 text-white mb-5 px-3 py-1 rounded hover:cursor-pointer hover:bg-orange-700 transition"
+              className="bg-gray-800 text-center  ms-20 text-white mb-5 px-3 py-1 rounded hover:cursor-pointer hover:bg-gray-900 transition"
             >
               Book Now
             </button>
@@ -163,7 +163,7 @@ const Services = () => {
                   
                   <button
                    onClick={() => openModal(course.title)}
-                   className="w-full bg-orange-700 text-white py-3 rounded-lg font-semibold hover:bg-orange-700 hover:cursor-pointer  transition-colors">
+                   className="w-full bg-gray-800 text-white py-3 rounded-lg font-semibold hover:bg-gray-900 hover:cursor-pointer  transition-colors">
                     Enroll Now
                   </button>
                 </div>

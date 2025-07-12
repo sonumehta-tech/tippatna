@@ -75,7 +75,7 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section id="home" className="relative bg-gradient-to-br from-orange-900 via-orange-800 to-indigo-900 text-white">
+      <section id="home" className="relative bg-gradient-to-br from-sky-900 via-blue-800 to-gray-900 text-white">
         <div className="absolute inset-0 bg-black opacity-20"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -89,10 +89,10 @@ const Home = () => {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 mb-12">
-                <button className="bg-white text-orange-900 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-orange-50 transition-all transform hover:scale-105 shadow-lg">
+                <button className="bg-white text-orange-900 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-50 transition-all transform hover:scale-105 shadow-lg">
                   Start Learning Today
                 </button>
-                <button className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-orange-900 transition-all">
+                <button className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-gray-900 transition-all">
                   View Courses
                 </button>
               </div>
@@ -125,7 +125,7 @@ const Home = () => {
                     <Phone className="w-5 h-5 text-cyan-300" />
                     <div>
                       <div>📞 8292236605</div>
-                      <div>📞 9905194344</div>
+                      <div>📞 9905194346</div>
                     </div>
                   </div>
                 </div>
@@ -168,12 +168,12 @@ const Home = () => {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {benefits.map((benefit, index) => (
-              <div key={index} className="text-center p-6 rounded-xl bg-gray-50 hover:bg-orange-50 transition-colors">
-                <div className="p-4 bg-orange-100 rounded-xl inline-block mb-4 text-orange-600">
+              <div key={index} className="text-center p-6 rounded-xl bg-gray-50 hover:bg-gray-200 transition-colors">
+                <div className="p-4 bg-gray-100rounded-xl inline-block mb-4 text-orange-600">
                   {benefit.icon}
                 </div>
                 <h3 className="text-lg font-bold text-gray-900 mb-3">{benefit.title}</h3>
-                <p className="text-gray-600 leading-relaxed">{benefit.description}</p>
+                <p className="text-gray-800 leading-relaxed">{benefit.description}</p>
               </div>
             ))}
           </div>
@@ -194,7 +194,7 @@ const Home = () => {
               
               <div className="grid grid-cols-2 gap-8 mb-8">
                 <div className="text-center">
-                  <div className="p-4 bg-orange-100 rounded-xl inline-block mb-4">
+                  <div className="p-4 bg-gray-100rounded-xl inline-block mb-4">
                     <Users className="w-8 h-8 text-orange-600" />
                   </div>
                   <div className="text-2xl font-bold text-gray-900">500+</div>
@@ -323,7 +323,7 @@ const Home = () => {
               <h3 className="text-2xl font-bold mb-8">📞 Contact Information</h3>
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
-                  <div className="p-3 bg-orange-700 rounded-lg">
+                  <div className="p-3 bg-gray-800 rounded-lg">
                     <MapPin className="w-6 h-6" />
                   </div>
                   <div>
@@ -333,7 +333,7 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <div className="p-3 bg-orange-700 rounded-lg">
+                  <div className="p-3 bg-gray-800 rounded-lg">
                     <Phone className="w-6 h-6" />
                   </div>
                   <div>

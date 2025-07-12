@@ -36,7 +36,7 @@ const Extara = () => {
             <button
                 id="scrollToTopBtn"
                 title="Go to top"
-                className="fixed bottom-4 right-6 p-3 bg-orange-700 text-white rounded-full shadow-lg hover:bg-orange-800 transition-all duration-300 opacity-0 z-10 transform translate-y-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-offset-2 animate-pulse2-scrollTopBtn"
+                className="fixed bottom-4 right-6 p-3 bg-gray-800 text-white rounded-full shadow-lg hover:bg-gray-800 transition-all duration-300 opacity-0 z-10 transform translate-y-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-offset-2 animate-pulse2-scrollTopBtn"
             >
                 <svg
                     className="w-6 h-6"
